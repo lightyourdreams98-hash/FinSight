@@ -1,16 +1,50 @@
-# React + Vite
+  FinSight
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+ AI-Powered Personal Finance Intelligence System
 
-Currently, two official plugins are available:
+FinSight is a full-stack personal finance management and analytics application that helps users track, analyze, and understand their spending.
+Unlike a traditional expense tracker, FinSight combines **expense management, financial analytics, data visualization, budgeting, and Artificial Intelligence** to provide personalized financial insights and recommendations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+ Problem Statement
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Managing personal expenses manually makes it difficult to understand spending behavior, identify unnecessary expenses, and maintain a monthly budget.
+Traditional expense tracking applications mainly record transactions but provide limited intelligence about the user's financial behavior.
+FinSight addresses this problem by transforming expense data into meaningful information through:
 
-## Expanding the Oxlint configuration
+- Automated expense tracking
+- Financial analytics
+- Spending visualization
+- Budget monitoring
+- AI-powered financial questions
+- Personalized AI recommendations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+ Key Features
+
+ 1. User Authentication
+
+FinSight provides secure user authentication using:
+- User registration
+- User login
+- Password hashing using bcrypt
+- JWT-based authentication
+- Protected routes
+- User-specific financial data
+
+Each user's expenses are associated with their authenticated user ID.
+
+2. Expense Management
+
+Users can manage their personal expenses through a dedicated expense module.
+
+Features
+
+- Add expenses
+- Edit expenses
+- Delete expenses
+- Expense categories
+- Payment methods
+- Expense dates
+- Expense descriptions
+- User-specific expense records
+
